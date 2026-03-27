@@ -1,0 +1,21 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  max-width: 600px;
+  margin:10px auto;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.title {
+  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: white;
+}
+
+.chat-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
